@@ -1,0 +1,6 @@
+print("This program takes three inputs: first, middle, and lastname. It will then output the initials (first letter of each)")
+first = input("Type First Name: ")
+middle = input("Type Middle name: ")
+last = input("Type Last Name: ")
+print("You typed: ", first, middle, last)
+print(first[0], middle[0], last[0])
